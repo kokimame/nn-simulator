@@ -130,3 +130,4 @@ class Network:
         for unit in self.out_layer:
             print([weight.w for weight in unit.b_weights], end="")
         print()
+>>>>>>> 33db57e62b4792a5f1bdf1b44d4dfa2fe2d1a936

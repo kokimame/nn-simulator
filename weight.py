@@ -32,4 +32,5 @@ class Weight:
         pg.draw.line(self.screen, pg.Color("black"), self.b_unit.pos, self.f_unit.pos, 2 * self.width())
 
     def width(self):
+>>>>>>> 33db57e62b4792a5f1bdf1b44d4dfa2fe2d1a936
         return int(6 / (1 + math.exp(-2 * self.w)))
