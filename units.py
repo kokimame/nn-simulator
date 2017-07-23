@@ -50,4 +50,3 @@ class OutputUnit(Unit):
     def output_update(self):
         self.output = self.sigmoid(sum([b_w.b_unit.output * b_w.w for b_w in self.b_weights]))
         #print("%s%d: output=%f" % (self.id, self.num, self.output))
->>>>>>> 33db57e62b4792a5f1bdf1b44d4dfa2fe2d1a936

@@ -21,9 +21,7 @@ def main():
             if event.type == pg.KEYDOWN and event.key == pg.K_ESCAPE:
                 done = True
 
-        if not learned:
-            learned = nn.is_training_done()
-
+        done = nn.is_training_done()
 
         screen.fill(pg.Color("white"))
         nn.paint()
